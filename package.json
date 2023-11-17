@@ -1,0 +1,42 @@
+{
+  "name": "nest-typeorm-logger",
+  "version": "1.0.0",
+  "description": "TypeORM Logger for NestJS",
+  "main": "dist/index.js",
+  "keywords": [
+    "nestjs",
+    "nest",
+    "typeorm",
+    "type",
+    "orm",
+    "logger",
+    "log",
+    "logging"
+  ],
+  "bugs": {
+    "url": "https://github.com/hotsoycandy/nest-typeorm-logger/issues",
+    "email": "wkdwnsghd617@gmaili.com"
+  },
+  "author": {
+    "name": "hotsoycandy",
+    "email": "wkdwnsghd617@gmail.com",
+    "url": "https://github.com/hotsoycandy"
+  },
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "sql-formatter": "^13.1.0"
+  },
+  "peerDependencies": {
+    "@nestjs/common": ">=6.0.0",
+    "typeorm": ">=0.2.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
